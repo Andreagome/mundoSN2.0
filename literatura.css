@@ -1,0 +1,194 @@
+.contenedor-encabezado{
+  display:grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 20% 1% 64% 15%;
+  border: 2px solid black;
+}
+.nada{
+  background-color:black;
+}
+.mundi{
+  background-color: #04BF7B;
+  animation: fondo 10s infinite;
+  position: relative;
+}
+.encabezado{
+  display:grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 64%;
+  background-color:#04BF7B;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  color:black;
+  text-align: center;
+  animation: fondo 10s infinite;
+  position: relative;
+}
+@keyframes fondo{
+from{
+  background-color:#2CB098;
+}
+30%{
+  background-color:#1BF2CB;
+}
+60%{
+  background-color: #2CB098;
+}
+to{
+  background-color:#1BF2CB;
+}
+  }
+  *{
+    margin: 0;
+    padding:0;
+  }
+  .logo-mundoSN{
+  width:100%;
+  height:100%;
+}
+  ol{
+  display:grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  grid-template-rows:100%;
+  background-color:#2CB098;
+}
+.opciones{
+  display: grid;
+  heigth:200px;
+  background-color: #2CB098;
+  grid-gap:1%
+}
+li{
+  display: grid;
+  grid-template-rows: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border:4px solid  #04BF7B ;
+  border-radius: 4px;
+  background-color: #D697FF;
+  padding: 1px
+}
+a{
+  text-decoration: none;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: black;
+  font-size:110%;
+
+}
+a:hover{
+  background-color: black;
+  color: white;
+  font-size: 130%;
+  }
+  img{
+  width:100%;
+  height:100%;
+}
+.titulo{
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 20% 80%;
+  background-color:#04BF7B;
+ }
+.texto{
+  display:grid;
+  text-align: center;
+  grid-template-rows: 100px;
+}
+.megafono{
+  width: 50%;
+}
+.novedades{
+  font-size:80px;
+  margin-top: 5%;
+  margin-right: 20%;
+  font-family: 'Satisfy', cursive;
+}
+.escritoras{
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 50% 50%;
+  background-color:#FFEF60;
+}
+.epica{
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 50% 50%;
+  background-color:#FFEF60;
+}
+.imgepica{
+  height:350px;
+  width: 50%;
+  margin-left:30% ;
+  margin-top: 2%;
+  border: 10px solid gainsboro;
+}
+h1{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+}
+p{
+  font-family: 'Heebo', sans-serif;
+  font-size-adjust: 60px;
+  text-align: justify;
+}
+h2{
+  font-family: 'Heebo', sans-serif;
+  text-decoration: underline;
+}
+.presentacionepica{
+  display: grid;
+  margin-left: 4%;
+}
+.presentacionescritoras{
+  margin-top:5%;
+   margin-left:4%;
+}
+.imagenescritoras{
+  margin-top:5%;
+}
+.infografias{
+  display: grid;
+  grid-template-rows: 700px;
+  grid-template-columns: 33% 33% 33%;
+  background-color:#FFEF60;
+  padding: 1%;
+}
+.infografias2{
+  display: grid;
+  grid-template-rows: 700px;
+  grid-template-columns: 33% 33% 33%;
+  background-color:#FFEF60;
+  padding: 1%;
+}
+
+.powerpoint{
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 50% 50%;
+  background-color: #FFEF60;
+}
+img{
+  width:100%;
+  height:100%;
+}
+.powerpointb{
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 50% 50%;
+  background-color: #FFEF60;
+}
+.powerpointc{
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 50% 50%;
+  background-color: #FFEF60;
+}
+
+.contenedor-social{
+  background-image: url("https://data.1freewallpapers.com/download/gradient-green-texture-background.jpg");
+  display:grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 10% 35% 10% 10% 10% 10% 10%;
+}

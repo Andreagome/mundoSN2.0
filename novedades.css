@@ -1,0 +1,153 @@
+.contenedor-encabezado{
+  display:grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 20% 1% 64% 15%;
+  border: 2px solid black;
+}
+.nada{
+  background-color:black;
+}
+.mundi{
+  background-color: #04BF7B;
+  animation: fondo 10s infinite;
+  position: relative;
+}
+.encabezado{
+  display:grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 100%;
+  background-color:#04BF7B;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  color:black;
+  text-align: center;
+  animation: fondo 10s infinite;
+  position: relative;
+}
+@keyframes fondo{
+from{
+  background-color:#2CB098;
+}
+30%{
+  background-color:#1BF2CB;
+}
+60%{
+  background-color: #2CB098;
+}
+to{
+  background-color:#1BF2CB;
+}
+  }
+  *{
+    margin: 0;
+    padding:0;
+  }
+  .logo-mundoSN{
+  width:100%;
+  height:100%;
+}
+  ol{
+  display:grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  grid-template-rows:100%;
+  background-color:#2CB098;
+}
+.opciones{
+  display: grid;
+  heigth:200px;
+  background-color: #2CB098;
+  grid-gap:1%
+}
+li{
+  display: grid;
+  grid-template-rows: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border:4px solid  #04BF7B ;
+  border-radius: 4px;
+  background-color: #D697FF;
+  padding: 1px
+}
+a{
+  text-decoration: none;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: black;
+  font-size:110%;
+
+}
+a:hover{
+  background-color: black;
+  color: white;
+  font-size: 130%;
+  }
+  img{
+  width:100%;
+  height:100%;
+}
+.titulo{
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 20% 80%;
+  background-color:#04BF7B;
+ }
+.texto{
+  display:grid;
+  text-align: center;
+  grid-template-rows: 100px;
+}
+.megafono{
+  width: 50%;
+}
+.novedades{
+  font-size:80px;
+  margin-top: 5%;
+  margin-right: 20%;
+  font-family: 'Satisfy', cursive;
+}
+.nose{
+  display: grid;
+  grid-template-rows:100px;
+  background-color: #FFEF60;
+  }
+h2{
+  font-family: 'Heebo', sans-serif;
+}
+.ahre{
+  margin-top:2%;
+  margin-left:5%;
+}
+p{
+    text-align: justify;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:110%;
+    line-height: 40px;
+  }
+
+.noticiauno{
+  display: grid;
+  grid-template-rows:800px;
+  grid-template-columns: 50% 50%;
+  background-color: #FFEF60;
+}
+.imagenfuturo{
+height: 550px;
+width: 550px;
+}
+.noticiados{
+  display: grid;
+  grid-template-rows:800px;
+  grid-template-columns: 50% 50%;
+  background-color: #FFEF60;
+}
+.imagendos{
+  margin-left: 10%;
+}
+.imagenig{
+  margin-right: 10%;
+}
+.contenedor-social{
+  background-image: url("https://data.1freewallpapers.com/download/gradient-green-texture-background.jpg");
+  display:grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 10% 35% 10% 10% 10% 10% 10%;
